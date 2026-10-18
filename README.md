@@ -12,5 +12,8 @@ cmake --build build --config Release
 ## 绿色版
 
 ```bash
-bash packaging/build.sh
+bash packaging/build.sh          # 绿色 zip + NSIS 安装包（默认 INSTALLER=both）
+INSTALLER=nsis bash packaging/build.sh   # 仅安装包
 ```
+
+安装包：`dist/轻图-qt-<版本>-win64-setup.exe`（需本机 [NSIS](https://nsis.sourceforge.io/)）。

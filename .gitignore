@@ -1,4 +1,5 @@
 build/
 dist/
+packaging/installer-stage/
 .idea/
 .vs/
